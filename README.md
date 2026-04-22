@@ -29,7 +29,7 @@ The Railway Booking System is a multithreaded Java application that simulates re
 
 ## 📂 Project Structure
 
-```
+```text
 src/
  └── com/railway/booking/
       ├── main/
