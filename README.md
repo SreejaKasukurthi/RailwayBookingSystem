@@ -2,8 +2,9 @@
 
 ## 📌 Overview
 
-A Java-based application that simulates a real-time railway ticket booking system.
-The system handles multiple users booking tickets concurrently using multithreading while ensuring thread safety.
+The Railway Booking System is a multithreaded Java application that simulates real-world ticket reservation scenarios. It handles concurrent booking and cancellation requests from multiple users while ensuring data consistency and preventing race conditions using synchronization techniques.
+
+> Designed to demonstrate concurrency handling and thread-safe operations in a real-world booking scenario.
 
 ---
 
@@ -28,13 +29,13 @@ The system handles multiple users booking tickets concurrently using multithread
 
 ## 📂 Project Structure
 
-```text
+```
 src/
  └── com/railway/booking/
       ├── main/
       ├── model/
       ├── service/
-      └── thread/
+      └── threads/
 ```
 
 ---
@@ -65,7 +66,7 @@ This project demonstrates how to build a concurrent system that safely manages s
 
 ## 📌 Future Enhancements
 
-* Add database integration
+* Add database integration (MySQL)
 * Build REST APIs using Spring Boot
 * Add user authentication
 * UI for booking system
